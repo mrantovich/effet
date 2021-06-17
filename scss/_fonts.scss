@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Athletics';
+    src: url('../fonts/Athletics-Regular.eot');
+    src: url('../fonts/Athletics-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Athletics-Regular.woff2') format('woff2'),
+        url('../fonts/Athletics-Regular.woff') format('woff'),
+        url('../fonts/Athletics-Regular.ttf') format('truetype'),
+        url('../fonts/Athletics-Regular.svg#Athletics-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RoadRadio';
+    src: url('../fonts/RoadRadio-Black.eot');
+    src: url('../fonts/RoadRadio-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RoadRadio-Black.woff2') format('woff2'),
+        url('../fonts/RoadRadio-Black.woff') format('woff'),
+        url('../fonts/RoadRadio-Black.ttf') format('truetype'),
+        url('../fonts/RoadRadio-Black.svg#RoadRadio-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+$athletics-font: 'Athletics', sans-serif;
+$roadradio-font: 'RoadRadio', sans-serif;
