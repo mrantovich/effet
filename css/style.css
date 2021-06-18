@@ -191,6 +191,12 @@ a {
   justify-content: space-between;
 }
 
+@media (max-width: 620px) {
+  .main__content-right-top {
+    padding: 0 15px 40px;
+  }
+}
+
 .main__content-right-bottom {
   flex: 1 1 50%;
 }
@@ -259,6 +265,13 @@ a {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  transition: 0.3s;
+}
+
+@media (max-height: 640px) {
+  .apropos__bg-img img {
+    opacity: 0.2;
+  }
 }
 
 .initiatives {
@@ -319,6 +332,13 @@ a {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  transition: 0.3s;
+}
+
+@media (max-height: 640px) and (max-width: 620px) {
+  .initiatives__bg-img img {
+    opacity: 0.2;
+  }
 }
 
 .tmg {
@@ -339,7 +359,7 @@ a {
   height: 100%;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 620px) and (max-width: 620px) {
   .tmg__content {
     position: static;
   }
@@ -375,6 +395,13 @@ a {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  transition: 0.3s;
+}
+
+@media (max-height: 640px) and (max-width: 620px) {
+  .tmg__bg-img img {
+    opacity: 0.2;
+  }
 }
 
 .balados {
@@ -431,6 +458,13 @@ a {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  transition: 0.3s;
+}
+
+@media (max-height: 640px) and (max-width: 620px) {
+  .balados__bg-img img {
+    opacity: 0.2;
+  }
 }
 
 .vedette {
@@ -1211,6 +1245,12 @@ a {
   height: 500px;
 }
 
+@media (max-width: 867px) {
+  .repertoire__right-box {
+    height: 50vh;
+  }
+}
+
 .repertoire__img-bg {
   width: 100%;
   height: 100%;
@@ -1221,6 +1261,12 @@ a {
 
 .partage {
   background-color: #FFD426;
+}
+
+@media (max-width: 867px) {
+  .partage {
+    padding: 25px 0;
+  }
 }
 
 .partage__left-box {
@@ -1242,6 +1288,10 @@ a {
   .partage__right-box {
     height: 50vh;
   }
+}
+
+.partage__button {
+  margin-bottom: 10px;
 }
 
 .coop {
@@ -1726,6 +1776,12 @@ a {
   width: 145px;
   height: 145px;
   transform: translate(0, 30%);
+}
+
+@media (max-width: 620px) {
+  .title img {
+    display: none;
+  }
 }
 
 .button-box {
